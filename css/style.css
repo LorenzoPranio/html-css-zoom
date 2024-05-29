@@ -80,19 +80,28 @@ footer{
     width: 100%;
 }
 
-.col-33{
-    width: calc(100% / 3 - 20px);
+.col-20{
+    width: calc(20% - 20px);
+    margin: 10px;
+}
+
+.col-60{
+    width: calc(60% - 20px);
     margin: 10px;
 }
 
 h4{
-
+    color: white;
+    display: inline-block;
+    margin: 5px 25px 10px 10px;
+    font-size: smaller;
 }
+
 
 p{
     color: red;
     align-self: center;
-    padding: 20px;
+    padding: 30px;
     background-color: gray;
 }
 
@@ -127,6 +136,33 @@ p{
 
 .al-end{
     align-items: flex-end;
+}
+
+.m-r{
+    margin-right: 50px;
+    margin-left: 15px;
+}
+
+.m-t-l{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.m-t-zero{
+    margin-right: 0px;
+}
+
+.m-t-right{
+    margin-right: 27px;
+}
+
+.m-t-left{
+    margin-left: 55px;
+}
+
+.m-t-break{
+    margin-left: 22px;
+    margin-right: 5px;
 }
 
 /*ID*/
