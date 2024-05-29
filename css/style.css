@@ -8,6 +8,25 @@
 
 /*REGOLE HEADER*/
 
+header{
+    position: fixed;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+ul{
+    list-style-type: none;
+    margin-top: 10px;
+    margin-right: 20px;
+}
+
+li{
+    background-color: white;
+    padding: 10px 25px;
+    display: inline-block;
+}
+
 /*REGOLE MAIN*/
 
 main{
