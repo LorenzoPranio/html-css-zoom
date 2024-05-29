@@ -10,6 +10,27 @@
 
 /*REGOLE MAIN*/
 
+main{
+    background-color: black;
+}
+
+.container{
+    width: 100vw;
+    padding: 50px;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col-14{
+    width: calc(100% / 7 - 7px);
+    margin: 10px 3px;
+    height: 150px;
+    background-color: yellow;
+}
+
 /*REGOLE FOOTER*/
 
 /*ID*/
