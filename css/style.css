@@ -28,6 +28,10 @@ li{
     color: white;
 }
 
+.content{
+    display: flex;
+}
+
 /*REGOLE MAIN*/
 
 main{
@@ -63,9 +67,43 @@ footer{
 
 .col-33{
     width: calc(100% / 3 - 20px);
-    height: 50px;
-    background-color: aqua;
     margin: 10px;
+}
+
+p{
+    color: red;
+    align-self: center;
+    padding: 20px;
+    background-color: gray;
+}
+
+.botton{
+    width: 35px;
+    height: auto;
+    margin: 10px;
+}
+
+.mini{
+    width: 12px;
+    height: auto;
+    margin: 10px;
+}
+
+.grid{
+    margin: 5px;
+    width: 45px
+}
+
+.flex-start{
+    justify-content: flex-start;
+}
+
+.flex-center{
+    justify-content: center;
+}
+
+.flex-end{
+    justify-content: flex-end;
 }
 
 /*ID*/
