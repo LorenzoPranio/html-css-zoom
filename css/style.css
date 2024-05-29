@@ -62,12 +62,22 @@ main{
     flex-wrap: wrap;
 }
 
+
 .col-14{
     width: calc(100% / 7 - 13px);
     margin: 10px 3px;
-    height: 150px;
-    background-color: yellow;
+    position: relative;
 }
+
+.label{
+    padding: 10px;
+    color: white;
+    position: absolute;
+    bottom: 0px;
+    left: 0;
+    background-color: gray;
+}
+
 
 /*REGOLE FOOTER*/
 
