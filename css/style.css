@@ -26,6 +26,19 @@ li{
     padding: 5px;
     display: inline-block;
     color: white;
+    border-radius: 5px;
+}
+
+h5{
+    color: white;
+    display: inline-block;
+    text-align: center;
+}
+
+.top{
+    width: 12px;
+    height: auto;
+    align-self: center;
 }
 
 .content{
@@ -36,6 +49,7 @@ li{
 
 main{
     background-color: black;
+    display: flex;
 }
 
 .container{
@@ -59,6 +73,7 @@ main{
 
 footer{
     background-color: rgb(66, 66, 66);
+        display: flex;
 }
 
 .containerfoot{
@@ -68,6 +83,10 @@ footer{
 .col-33{
     width: calc(100% / 3 - 20px);
     margin: 10px;
+}
+
+h4{
+
 }
 
 p{
@@ -104,6 +123,10 @@ p{
 
 .flex-end{
     justify-content: flex-end;
+}
+
+.al-end{
+    align-items: flex-end;
 }
 
 /*ID*/
