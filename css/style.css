@@ -25,12 +25,27 @@ main{
 }
 
 .col-14{
-    width: calc(100% / 7 - 7px);
+    width: calc(100% / 7 - 13px);
     margin: 10px 3px;
     height: 150px;
     background-color: yellow;
 }
 
 /*REGOLE FOOTER*/
+
+footer{
+    background-color: rgb(66, 66, 66);
+}
+
+.containerfoot{
+    width: 100%;
+}
+
+.col-33{
+    width: calc(100% / 3 - 20px);
+    height: 50px;
+    background-color: aqua;
+    margin: 10px;
+}
 
 /*ID*/
