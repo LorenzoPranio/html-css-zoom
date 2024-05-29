@@ -65,7 +65,7 @@ main{
 
 
 .col-14{
-    width: calc(100% / 7 - 13px);
+    width: calc(100% / 7 - 6px);
     margin: 10px 3px;
     position: relative;
 }
